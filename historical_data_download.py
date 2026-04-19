@@ -7,8 +7,8 @@ from alpaca.data.timeframe import TimeFrame
 from alpaca.data.enums import DataFeed
 
 # Alpaca API credentials
-API_KEY = "AKPG5IV4XUJKQEAYYYMKREICER"
-SECRET = "9HJf3D6c9e7gxWebrY6bRefQqW8piCzpRXrozLxmC8wX"
+API_KEY = os.environ.get("ALPACA_API_KEY", "AKPG5IV4XUJKQEAYYYMKREICER")
+SECRET = os.environ.get("ALPACA_SECRET", "9HJf3D6c9e7gxWebrY6bRefQqW8piCzpRXrozLxmC8wX")
 
 OUTPUT_DIR = "historical_data"
 
