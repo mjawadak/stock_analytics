@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Data files
+historical_data/
+data/
+*.csv
+*.parquet
+
+# Keys and secrets
+keys/
+
+# Model files
+*.zip
+dqn_trading_agent*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
